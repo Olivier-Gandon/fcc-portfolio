@@ -1,0 +1,136 @@
+.projects-section{
+
+  min-height: 100vh;
+
+}
+
+#gallery{
+  h2{
+    font-size: 3rem;
+    padding: 3rem 0;
+    text-align: center;
+  }
+  .btn {
+     position: absolute;
+    top: 6rem;
+    padding: .5em 1.25em;
+    background-color: #add8e6;
+    border-radius: 30px;
+    color: #002e39;
+    text-align: center;
+  }
+}
+
+.portfolio {
+  display: flex;
+  min-width: 600px;
+  max-width: 12000px;
+  height: 600px;
+  align-items: center;
+  margin:  auto;
+}
+.image {
+  min-width: 60px;
+  margin: .5rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  filter: drop-shadow(0 0 0.25rem black);
+}
+.image.active {
+  flex-grow: 100;
+  max-width: 600px;
+  margin: 0;
+  border-radius: 7px;
+  background-size: auto 100%;
+}
+.image:not(.active){
+  flex-grow: 1;
+  border-radius: 5px;
+}
+.text-container {
+  width: 100%;
+  height: 600px;
+  padding: 2rem;
+  visibility: hidden;
+  transform: translateY(300px);
+  opacity: 0;
+  transition: all .4s ease;
+  background: linear-gradient(354deg, #000 0%, transparent 75%);
+  color: white;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  bottom: 5rem;
+  h3{
+    text-decoration: underline;
+  }
+}
+.active .text-container {
+  visibility: visible;
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+#codepen{
+  margin-top: 3rem;
+  text-align: center;
+  a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    background-color: #add8e6;
+    border-radius: 30px;
+
+  }
+  :hover{
+    border: 3px solid #002e39 ;
+  }
+  i:hover{
+    border: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

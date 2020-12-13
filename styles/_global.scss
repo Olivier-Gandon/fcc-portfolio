@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap");
+
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+}
+
+html,
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  color: #002e39;
+  font-weight: 400;
+  background-image: linear-gradient(to bottom, #add8e6, #a8d3e4, #a4cee2, #a0c9df, #9dc4dd, #9abfda, #98bbd8, #96b6d5, #94b1d2, #92accf, #91a6cc, #90a1c8);
+
+}
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
+ul{
+  padding-left: 0;
+}
+
+section{
+  scroll-margin-top: 7.5vh;
+  padding: 0 8rem;
+  width: 100vw;
+  height: 100vh;
+  // display: flex;
+  // // align-items: center;
+  // justify-content: center;
+
+}
+
+ /* Navigation */
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+ #section{
+   padding:0;
+}
+}
+
+
+
